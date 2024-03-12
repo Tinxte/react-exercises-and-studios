@@ -1,4 +1,4 @@
-function HobbyLinks() {
+export default function HobbyLinks() {
     let hobbyLinks = ["launchcode.org", "google.com"];
     return (
     <div>    
