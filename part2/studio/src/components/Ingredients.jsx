@@ -1,5 +1,18 @@
-function IngredientList() {
-   return;
+import recipedata from "./recipe.json";
+
+function IngredientList(props) {
+   return(
+    <div>
+      <h3>Ingredients</h3>
+      <ul>
+        {/* {props.map(props) => { */}
+
+        {/* <li key ={props.index}>{props.IngredientList}</li>
+          }
+        } */}
+      </ul>
+    </div>
+   );
  }
  
  export default IngredientList;
