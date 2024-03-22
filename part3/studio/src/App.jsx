@@ -9,10 +9,10 @@ function App() {
   return (
     <>
       <div className="App">
-        <RecipeDisplay />
+        {/* <RecipeDisplay /> */}
         <div className="recipePhotoBlock">
           <BoardAssignment />
-          <StatusChange />
+          {/* <StatusChange /> */}
         </div>
       </div>
     </>
